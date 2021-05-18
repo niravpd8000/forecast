@@ -1,4 +1,10 @@
 .custom-modal {
+  @media only screen and (max-width: 600px) {
+    .card-header {
+      font-size: 18px !important;
+      line-height: 1 !important;
+    }
+  }
   .modal-dialog {
     align-items: center;
     max-width: 550px;
