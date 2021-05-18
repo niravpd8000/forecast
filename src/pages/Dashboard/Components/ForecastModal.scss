@@ -1,0 +1,55 @@
+.forecast-modal {
+  @media only screen and (max-width: 600px) {
+    .content {
+      font-size: 17px !important;
+    }
+    .img-card {
+      max-width: 155px !important;
+    }
+    .due-date-card {
+      font-size: 10px;
+      padding: 35px 0 !important  ;
+      width: 120px !important;
+    }
+    .bottom-div {
+      font-size: 16px !important;
+    }
+  }
+  font-family: "Poppins";
+  .content {
+    margin: 30px 0px;
+    font-size: 20px;
+    font-weight: bold;
+    padding: unset;
+  }
+  .due-date-card {
+    width: 200px;
+    padding: 22px 0;
+    font-weight: bold;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    height: 100px;
+    align-items: center;
+    background-color: #f3f3f3;
+  }
+  .img-card {
+    padding: unset;
+    max-width: 255px;
+    height: 235px;
+    img {
+      border-radius: 10px;
+      max-width: inherit;
+      max-height: inherit;
+    }
+  }
+  .bottom-div {
+    color: white;
+    font-size: 20px;
+    width: 95%;
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: 25px;
+    margin-bottom: 15px;
+    background-image: linear-gradient(#fc686f, #ff934c);
+  }
+}
